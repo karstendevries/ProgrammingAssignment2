@@ -1,5 +1,5 @@
 ## makeCacheMatrix is a (main) function that stores four functions:
-	## 1 set (changes/stores the matrix stored in the main function)
+	## 1 set (changes/stores the matrix in the main function)
 	## 2 get (returns the matrix stored in the main function)
 	## 3 setInverseMatrix (changes/stores the inverse matrix in the main function)
 	## 4 getInverseMatrix (returns the inverse matrix stored in the main function)
@@ -37,7 +37,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## cacheSolve is a function that:
 	## 1 gets the inverse matrix (if it exists in memory)
 	## 2 if it exists it will return the inverse matrix and exit the function
-	## 3 else (everything after the first return statement can be seen as a kind of an else condition), get the matrix that is stored during the makeCacheMatrix function call
+	## 3 else (everything after the first return statement can be seen as a kind of an else condition), gets the matrix that is stored during the makeCacheMatrix function call
 	## 4 inverse this matrix 
 	## 5 stores the inverse matrix
 	## 6 returns the inverse matrix
